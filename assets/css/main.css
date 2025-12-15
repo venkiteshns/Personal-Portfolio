@@ -2847,9 +2847,7 @@ section,
   background-color: color-mix(in srgb, var(--surface-color), transparent 70%);
 }
 
-/*--------------------------------------------------------------
-# Starter Section Section
---------------------------------------------------------------*/
-.starter-section {
-  /* Add your styles here */
+
+.submit-button{
+  width: fit-content;
 }
