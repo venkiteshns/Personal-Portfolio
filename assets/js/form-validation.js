@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function validateName() {
     name_text = name.value.trim();
     if (name_text === "") {
-      error.innerText = "Name cannot be empty!";
+      error.innerText = "All Fields Are Required !";
       error.style.visibility = "visible";
       return false;
     }
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", function () {
     email_text = email.value.trim();
 
     if (email_text === "") {
-      error.innerText = "E-mail cannot be empty !";
+      error.innerText = "All Fields Are Required !";
       error.style.visibility = "visible";
       return false;
     }
@@ -50,7 +50,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function validatSubject() {
     subject_text = subject.value.trim();
     if (subject_text === "") {
-      error.innerText = "Subject cannot be empty !";
+      error.innerText = "All Fields Are Required !";
       error.style.visibility = "visible";
       return false;
     }
@@ -63,7 +63,7 @@ document.addEventListener("DOMContentLoaded", function () {
   function validatMessage() {
     message_text = message.value.trim();
     if (message_text === "") {
-      error.innerText = "Message cannot be empty !";
+      error.innerText = "All Fields Are Required !";
       error.style.visibility = "visible";
       return false;
     }
